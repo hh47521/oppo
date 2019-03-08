@@ -1,0 +1,41 @@
+@import 'public';
+.top{
+	height: 720px;
+	width: 100%;
+	nav{
+		width: 1200px;
+		height: 56px;
+		margin: 0 auto;
+		text-align: center;
+		position: absolute;
+		z-index: 1;
+		line-height: 56px;
+		a{
+			float: left;
+			padding-right: 52px;
+			font-size: 14px;
+		}
+	}
+	.first_a{
+		padding-right: 108px;
+		font-size: 22px;
+		
+	}
+	.last_a{
+		float: right;
+		padding:0;
+	}
+	.big_pic{
+		position: absolute;
+		@include size(100%,720px);
+	}
+}
+.center{
+	@include size(100%,600px);
+	ul li img{
+		@include size(50%,300px);
+		float: left;
+	}
+}
+
+	
